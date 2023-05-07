@@ -27,8 +27,8 @@ const inquirerMenu = async() => {
 
     // console.clear();
     console.log('==================='.green)
-    console.log('===================\n'.white)
     console.log('Seleccione una opción'.green)
+    console.log('===================\n'.white)
 
     const { opcion } = await inquirer.prompt(preguntas);
 
